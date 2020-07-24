@@ -4,12 +4,7 @@ public class Account {
 	private int id;
 	private String name;
 	public double balance;
-	public double getBalance() {
-		return balance;
-	}
-	public void setBalance(double balance) {
-		this.balance = balance;
-	}
+	
 	public Account(int id, String name) {
 		super();
 		this.id = id;
@@ -34,7 +29,11 @@ public class Account {
 
 		return 0.0;
 	}
-	public void transferAnother(Account two, int i) {
+	public void transferAnother(Account a, double i) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void show() {
 		// TODO Auto-generated method stub
 		
 	}
