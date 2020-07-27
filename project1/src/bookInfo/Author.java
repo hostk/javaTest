@@ -5,6 +5,15 @@ public class Author {
 	private String email;
 	private String gender;
 
+	public Author(String name, String email, String gender) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.gender = gender;
+	}
+	public Author() {
+		
+	}
 	public String getName() {
 		return name;
 	}
@@ -24,6 +33,10 @@ public class Author {
 		this.gender = gender;
 	}
 	public void showInfo() {
+		System.out.println("Author Information");
+		System.out.println("Author Name : "+name);
+		System.out.println("Author email : "+email);
+		System.out.println("Author gender :"+gender);
 	}
 	
 }

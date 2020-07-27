@@ -4,10 +4,7 @@ public class Book{
 	private String bookName;
 	private double bPrice;
 	private int bQty;
-	
-	public Book() {
-		
-	}
+	Author a=new Author();
 	public String getBookName() {
 		return bookName;
 	}
@@ -26,14 +23,14 @@ public class Book{
 	public void setbQty(int bQty) {
 		this.bQty = bQty;
 	}
-	public Book(String bName,double bPrice,int qty) {
-		setBookName(bName);
-		setbPrice(bPrice);
-		setbQty(qty);
+	public Book(String bName,double bPrice,int qty,Author a) {
+		this.a=a;
+		this.bookName=bName;
+		this.bPrice=bPrice;
+		this.bQty=qty;
 	}
 	public void showInfo() {
-		Author a =new Author();
-		a.setName("Min Ko");
+		System.out.println("Book Information");
 		System.out.println("Author : "+a.getName());
 		System.out.println("Book Name : "+bookName);
 		System.out.println("Book Price : "+bPrice);
