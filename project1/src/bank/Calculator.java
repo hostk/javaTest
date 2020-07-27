@@ -13,14 +13,12 @@ public class Calculator extends Account{
 
 	public Calculator(int id, String name,double balance) {
 		super(id, name);
-		setBalance(balance);
+		this.balance=balance;
 	}
 	
 	public double Credit() {
-		if(balance==0.0) {
 		balance+=balance;
 		System.out.println("Credit Balance:"+balance);
-		}
 		return balance;
 	}
 	public void Debit(double debit) {
