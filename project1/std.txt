@@ -1,0 +1,4 @@
+Name = Min Ko ; rollNo = 5cs-122 ; Phone No = 09977264873 ; City = Mandalay;
+ 
+Name = Min Min ; rollNo = 5cs-122 ; Phone No = 092222222 ; City = YGN;
+ 
